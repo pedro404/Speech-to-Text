@@ -1,0 +1,31 @@
+/*  если меньше чем  */
+
+@media only screen and (max-width: 500px) {
+  .mobi {
+    display: none !important;
+  }
+  .btn {
+    width: 5.9rem !important;
+    height: 2.5rem !important;
+    margin: 0.1rem !important;
+  }
+  .box-a {
+    width: 80vw;
+  }
+  .mic::after {
+    right: -0.5rem !important;
+  }
+  .content-container {
+    padding-bottom: 0.2em !important;
+  }
+  .btn-container {
+    padding-bottom: 0.2em !important;
+  }
+  *::-webkit-scrollbar {
+    width: 4px !important;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border: 1px !important;
+  }
+}

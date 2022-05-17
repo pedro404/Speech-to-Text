@@ -1,0 +1,42 @@
+.i-copy {
+  border: 1px solid lavender;
+  margin-bottom: 0.1rem;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 0.4rem;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+}
+
+.i-copy:active {
+  border-color: #00de00;
+  background-color: #ebffed;
+}
+
+.s-copy {
+  position: relative;
+  --after-content: "";
+  --after-bg: transparent;
+}
+
+.s-over {
+  --after-content: "Copy" !important;
+  --after-bg: #cef3ff;
+}
+
+.s-click {
+  --after-content: "Copied" !important;
+  --after-bg: #b9f6ca;
+}
+
+.s-copy:after {
+  position: absolute;
+  top: 0.36rem;
+  right: 0.36rem;
+  background-color: var(--after-bg);
+  font-size: 1rem;
+  padding: 0.2rem 0.9rem;
+  border-radius: 0.2rem;
+  content: var(--after-content);
+}

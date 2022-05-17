@@ -1,0 +1,28 @@
+.menu-open,
+.menu-close {
+  background-image: url(../img/menu-open.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 3.5rem;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  width: 3.5rem;
+  aspect-ratio: 1/1;
+  opacity: 0.6;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-open:hover,
+.menu-close:hover {
+  opacity: 1;
+}
+
+.menu-close {
+  background-image: url(../img/menu-close.svg);
+}
+
+.n-close {
+  margin-right: 0.5rem;
+}

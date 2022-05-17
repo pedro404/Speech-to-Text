@@ -1,0 +1,55 @@
+:root {
+  --elem-v: 80%;
+  --elem-radius: 0.2rem;
+}
+
+.my-menu {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  padding: 0.4rem;
+  overflow: hidden;
+  height: 12rem;
+}
+
+.item {
+  aspect-ratio: 1/1;
+  display: table;
+  user-select: none;
+}
+
+.item div {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  font-size: 1.1rem;
+  background: #ffffff91;
+  backdrop-filter: blur(5px);
+  padding-bottom: 0.3rem;
+}
+
+.btn-cont {
+  background-size: 5rem !important;
+  background-repeat: no-repeat !important;
+  background-position: top -0.5rem left 0.2rem !important;
+  color: #284160;
+  cursor: pointer;
+  user-select: none;
+}
+
+.my-copy {
+  background-image: url(../img/my-copy.svg) !important;
+}
+
+.my-notes {
+  background-image: url(../img/my-notes.svg) !important;
+}
+
+.my-save {
+  background-image: url(../img/my-save.svg) !important;
+}
+
+.my-download {
+  background-image: url(../img/my-download.svg) !important;
+}

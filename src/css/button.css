@@ -1,0 +1,38 @@
+:root {
+  --mic: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktbWljIj4KICA8cGF0aCBkPSJNMy41IDYuNUEuNS41IDAgMCAxIDQgN3YxYTQgNCAwIDAgMCA4IDBWN2EuNS41IDAgMCAxIDEgMHYxYTUgNSAwIDAgMS00LjUgNC45NzVWMTVoM2EuNS41IDAgMCAxIDAgMWgtN2EuNS41IDAgMCAxIDAtMWgzdi0yLjAyNUE1IDUgMCAwIDEgMyA4VjdhLjUuNSAwIDAgMSAuNS0uNXoiLz4KICA8cGF0aCBkPSJNMTAgOGEyIDIgMCAxIDEtNCAwVjNhMiAyIDAgMSAxIDQgMHY1ek04IDBhMyAzIDAgMCAwLTMgM3Y1YTMgMyAwIDAgMCA2IDBWM2EzIDMgMCAwIDAtMy0zeiIvPgo8L3N2Zz4=);
+}
+
+.btn {
+  width: 6.3rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 30%);
+  margin: 0.2rem;
+  cursor: pointer;
+}
+.do {
+  background: linear-gradient(310deg, #71839b, #984e51);
+}
+.do:hover {
+  background: linear-gradient(310deg, #71839b, #71839b);
+}
+
+.mic,
+.mic:hover {
+  background: linear-gradient(310deg, #3acfff, #71839b, #984e51);
+}
+
+.mic::after {
+  background-image: var(--mic);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  display: inline-block;
+  content: " ";
+  background-position: top 0rem right 0rem;
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  position: relative;
+  top: 0.1rem;
+  right: -0.9rem;
+}
